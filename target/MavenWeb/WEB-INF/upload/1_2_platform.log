@@ -1,0 +1,892 @@
+Log file created at: 2020/06/19 21:38:33
+Running on machine: DESKTOP-XLWMFH
+Log line format: YY-mm-dd hh:mm:ss.uuuuuu [threadid] [file:line] msg
+2020-06-19 21:38:33.907881 INFO [10192] [log.cpp:473] Logger Inited.
+2020-06-19 21:38:34.749749 INFO [10192] [currentskin.cpp:117] csne(117), font=Blizzard,Microsoft YaHei,Segoe UI,SimHei,SimSun,Times New Roman,0,14
+2020-06-19 21:38:34.752744 INFO [10192] [wyapplication.cpp:242] app(242), bmp; cur; gif; icns; ico; jpeg; jpg; pbm; pgm; png; ppm; svg; svgz; tga; tif; tiff; wbmp; webp; xbm; xpm; 
+2020-06-19 21:38:34.769660 INFO [10192] [platformmanager.cpp:241] start>> version build : Jun 16 2020, 12:43:22
+2020-06-19 21:38:34.769660 INFO [10192] [platformmanager.cpp:242] (77,242;169717093,875), i=5, start on
+2020-06-19 21:38:34.772652 INFO [10192] [engine.cpp:144] Build Version: 2.0.77.10847
+2020-06-19 21:38:34.774648 INFO [10192] [platformmanager.cpp:341] pm(341), c=1
+2020-06-19 21:38:34.775645 INFO [10192] [gameround.cpp:119] gr(119)>> Clear
+2020-06-19 21:38:34.775645 INFO [10192] [gameround.cpp:134] gr(134)>> reset = 411363725934400
+2020-06-19 21:38:34.775645 INFO [10192] [gameround.cpp:138] gr(138)>> reset r = 8247498826999103978
+2020-06-19 21:38:34.781630 INFO [10192] [gameassist.cpp:1058] gars(1058), sl 0
+2020-06-19 21:38:34.781630 ERROR [10192] [commonlibshell.cpp:154] cls(154), err=2
+2020-06-19 21:38:34.782626 INFO [10192] [gameassist.cpp:1145] gars(1145), ul
+2020-06-19 21:38:34.818531 INFO [10192] [soundmanager.cpp:42] is support mp3 1
+2020-06-19 21:38:34.877395 INFO [19192] [platformmanager.cpp:754] (242,754;169717968,110), i=6, lg
+2020-06-19 21:38:34.888362 INFO [19192] [gamewar3vsconfig.cpp:346] gwvc(346), 4, 2, 0
+2020-06-19 21:38:34.891361 INFO [19192] [platformmanager.cpp:839] (754,839;169718078,0), i=6, lg
+2020-06-19 21:38:34.891361 INFO [19192] [platformmanager.cpp:848] (839,848;169718078,0), i=6, lg
+2020-06-19 21:38:34.904337 INFO [19192] [platformmanager.cpp:948] (848,948;169718078,15), i=6, clear cache
+2020-06-19 21:38:35.958518 INFO [10192] [networklib.cpp:135] cnl(135)>>conn lg=.23.157:12014
+2020-06-19 21:38:35.961509 ERROR [10192] [stdafx.cpp:41] tcs(34), 3924, 3080936 ok=0
+2020-06-19 21:38:35.961509 ERROR [10192] [stdafx.cpp:41] csm(57), add socket a3d07b4, s=3924
+2020-06-19 21:38:36.256682 INFO [10192] [networklib.cpp:973] cnl(973)>>conn
+2020-06-19 21:38:36.330484 ERROR [10192] [stdafx.cpp:41] csm(72), delete sock=3924
+2020-06-19 21:38:42.629631 INFO [10192] [commonlibshell.cpp:25] open url http://reg.163.com/reg/reg.jsp?product=urs&blzcmp=dzclient
+2020-06-19 21:38:49.900177 INFO [10192] [networklib.cpp:135] cnl(135)>>conn lg=.23.157:12006
+2020-06-19 21:38:49.900177 ERROR [10192] [stdafx.cpp:41] tcs(34), 5000, 3080936 ok=0
+2020-06-19 21:38:49.900177 ERROR [10192] [stdafx.cpp:41] csm(57), add socket a3d07b4, s=5000
+2020-06-19 21:38:49.939071 INFO [10192] [networklib.cpp:973] cnl(973)>>conn
+2020-06-19 21:38:50.061864 INFO [10192] [authlib.cpp:480] al(480)>>6.7.208, 12050
+2020-06-19 21:38:51.469976 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic+account.full+commerce.entitlements+auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169733328&logout
+2020-06-19 21:38:51.518875 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/login/en/logout?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic+account.full+commerce.entitlements+auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&app=oauth&theme=app
+2020-06-19 21:38:51.566895 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/logout?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic+account.full+commerce.entitlements+auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&app=oauth&theme=app, Authentication-State:LOGIN, Error-Code:, Error-Message:
+2020-06-19 21:38:51.604022 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic account.full commerce.entitlements auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169733328
+2020-06-19 21:38:51.646505 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/login/en/?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&app=oauth&theme=app
+2020-06-19 21:38:51.695482 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&app=oauth&theme=app, Authentication-State:LOGIN, Error-Code:, Error-Message:
+2020-06-19 21:38:57.153774 INFO [10192] [wndloginbattlenetweb.cpp:604] wlpb(604)>>create account
+2020-06-19 21:38:57.215601 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/account/creation/tos.app?&ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&theme=app&app=oauth
+2020-06-19 21:38:57.261622 INFO [15604] [wndloginbattlenetweb.cpp:119] OAuth URL:https://www.battlenet.com.cn/account/creation/zh/tos.app?&ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&theme=app&app=oauth, AccountManagement-State:ACCOUNT_CREATION
+2020-06-19 21:39:36.563319 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:400, url:https://www.battlenet.com.cn/account/creation/sms-verification/send-code
+2020-06-19 21:39:40.174919 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/?ref=https%3A%2F%2Fwww.battlenet.com.cn%2Foauth%2Fauthorize%3Fscope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token%3Agenerate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps%3A%2F%2Flocalhost%2F%26state%3D169733328&app=app&theme=app, Authentication-State:LOGIN, Error-Code:, Error-Message:
+2020-06-19 21:39:40.216617 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/login/zh/index?ref=https%3A%2F%2Fwww.battlenet.com.cn%2Foauth%2Fauthorize%3Fscope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token%3Agenerate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps%3A%2F%2Flocalhost%2F%26state%3D169733328&app=app&theme=app
+2020-06-19 21:39:40.277382 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/?ref=https%3A%2F%2Fwww.battlenet.com.cn%2Foauth%2Fauthorize%3Fscope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token%3Agenerate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps%3A%2F%2Flocalhost%2F%26state%3D169733328&app=app&theme=app, Authentication-State:LOGIN, Error-Code:, Error-Message:
+2020-06-19 21:39:48.856842 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/?ref=https%3A%2F%2Fwww.battlenet.com.cn%2Foauth%2Fauthorize%3Fscope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token%3Agenerate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps%3A%2F%2Flocalhost%2F%26state%3D169733328&app=app&theme=app, Authentication-State:LOGIN, Error-Code:INVALID_PASSWORD, Error-Message:å¯†ç æœ‰è¯¯ã€‚
+2020-06-19 21:39:53.889958 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/?ref=https%3A%2F%2Fwww.battlenet.com.cn%2Foauth%2Fauthorize%3Fscope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token%3Agenerate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps%3A%2F%2Flocalhost%2F%26state%3D169733328&app=app&theme=app, Authentication-State:LOGIN, Error-Code:INVALID_PASSWORD, Error-Message:å¯†ç æœ‰è¯¯ã€‚
+2020-06-19 21:41:37.843806 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/?ref=https%3A%2F%2Fwww.battlenet.com.cn%2Foauth%2Fauthorize%3Fscope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token%3Agenerate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps%3A%2F%2Flocalhost%2F%26state%3D169733328&app=app&theme=app, Authentication-State:CHALLENGE, Error-Code:, Error-Message:
+2020-06-19 21:41:37.921597 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/account-locked?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&app=app&cr=true&theme=app, Authentication-State:CHALLENGE, Error-Code:, Error-Message:
+2020-06-19 21:41:37.989414 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/challenge/1f093007-e3d2-4c94-ac22-c428c8ac5bad?ref=/login/zh/account-unlock&app=app&theme=app, Authentication-State:CHALLENGE, Error-Code:, Error-Message:
+2020-06-19 21:41:49.022004 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/challenge/1f093007-e3d2-4c94-ac22-c428c8ac5bad?ref=/login/zh/account-unlock&app=app&theme=app, Authentication-State:CHALLENGE, Error-Code:, Error-Message:
+2020-06-19 21:41:49.094120 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/account-unlock, Authentication-State:LEGAL, Error-Code:, Error-Message:
+2020-06-19 21:41:49.145565 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/legal?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&app=app&cr=true&theme=app, Authentication-State:LEGAL, Error-Code:, Error-Message:
+2020-06-19 21:41:50.571748 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/legal?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169733328&app=app&cr=true&theme=app, Authentication-State:DONE, Error-Code:, Error-Message:
+2020-06-19 21:41:50.663542 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic account.full commerce.entitlements auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169733328&ST=CN-c74955e80115f955ddcf11702ccd2625-238514792&region=CN&accountName=15828685116&accountId=238514792
+2020-06-19 21:41:50.711413 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic account.full commerce.entitlements auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169733328&region=CN&accountName=15828685116&accountId=238514792
+2020-06-19 21:41:50.712373 INFO [15604] [wndloginbattlenetweb.cpp:32] auth success: 169733328
+2020-06-19 21:41:50.777475 INFO [10192] [authlib.cpp:480] al(480)>>6.7.208, 12056
+2020-06-19 21:41:50.777475 INFO [10192] [networklib.cpp:147] cnl(147)>>conn lg=.7.208:12056
+2020-06-19 21:41:50.777475 ERROR [10192] [stdafx.cpp:41] csm(72), delete sock=5000
+2020-06-19 21:41:50.777475 ERROR [10192] [stdafx.cpp:41] tcs(34), 5000, 3080936 ok=0
+2020-06-19 21:41:50.777475 ERROR [10192] [stdafx.cpp:41] csm(57), add socket a3d084c, s=5000
+2020-06-19 21:41:50.816242 INFO [10192] [networklib.cpp:1210] cnl(1210)>>conn
+2020-06-19 21:42:03.238855 ERROR [10192] [stdafx.cpp:41] csm(72), delete sock=5000
+2020-06-19 21:42:03.417376 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic+account.full+commerce.entitlements+auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169926437&logout
+2020-06-19 21:42:03.620836 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/login/en/logout?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic+account.full+commerce.entitlements+auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169926437&app=oauth&theme=app
+2020-06-19 21:42:03.683686 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/logout?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic+account.full+commerce.entitlements+auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169926437&app=oauth&theme=app, Authentication-State:LOGIN, Error-Code:, Error-Message:
+2020-06-19 21:42:03.721029 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic account.full commerce.entitlements auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169926437
+2020-06-19 21:42:03.768467 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/login/en/?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169926437&app=oauth&theme=app
+2020-06-19 21:42:03.817549 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169926437&app=oauth&theme=app, Authentication-State:LOGIN, Error-Code:, Error-Message:
+2020-06-19 21:42:14.557118 INFO [15604] [wndloginbattlenetweb.cpp:106] OAuth URL:https://www.battlenet.com.cn/login/zh/?ref=https://www.battlenet.com.cn/oauth/authorize?scope%3Daccount.basic%2520account.full%2520commerce.entitlements%2520auth.sso.token:generate%26response_type%3Dcode%26client_id%3D07579f52b20840d49f2f086d1e772a8c%26redirect_uri%3Dhttps://localhost/%26state%3D169926437&app=oauth&theme=app, Authentication-State:DONE, Error-Code:, Error-Message:
+2020-06-19 21:42:14.598459 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic account.full commerce.entitlements auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169926437&ST=CN-53f0d08c5d47605c7d7d18262d579f09-238514792
+2020-06-19 21:42:14.644336 ERROR [15604] [wndloginbattlenetweb.cpp:133] OAuth error:302, url:https://www.battlenet.com.cn/oauth/authorize?scope=account.basic account.full commerce.entitlements auth.sso.token:generate&response_type=code&client_id=07579f52b20840d49f2f086d1e772a8c&redirect_uri=https://localhost/&state=169926437
+2020-06-19 21:42:14.644336 INFO [15604] [wndloginbattlenetweb.cpp:32] auth success: 169926437
+2020-06-19 21:42:14.644336 INFO [10192] [networklib.cpp:135] cnl(135)>>conn lg=.23.157:12008
+2020-06-19 21:42:14.645355 ERROR [10192] [stdafx.cpp:41] tcs(34), 6768, 3080936 ok=0
+2020-06-19 21:42:14.645355 ERROR [10192] [stdafx.cpp:41] csm(57), add socket a3d07b4, s=6768
+2020-06-19 21:42:14.680240 INFO [10192] [networklib.cpp:973] cnl(973)>>conn
+2020-06-19 21:42:14.794970 INFO [10192] [authlib.cpp:480] al(480)>>6.7.209, 12034
+2020-06-19 21:42:14.794970 INFO [10192] [networklib.cpp:147] cnl(147)>>conn lg=.7.209:12034
+2020-06-19 21:42:14.794970 ERROR [10192] [stdafx.cpp:41] csm(72), delete sock=6768
+2020-06-19 21:42:14.794970 ERROR [10192] [stdafx.cpp:41] tcs(34), 6768, 3080936 ok=0
+2020-06-19 21:42:14.794970 ERROR [10192] [stdafx.cpp:41] csm(57), add socket a3d084c, s=6768
+2020-06-19 21:42:14.827872 INFO [10192] [networklib.cpp:1210] cnl(1210)>>conn
+2020-06-19 21:42:16.509346 INFO [10192] [authlib.cpp:2732] al(2732)>> 238514792@battlenet.oauth
+2020-06-19 21:42:16.576205 INFO [10192] [authlib.cpp:807] al(807), login=3436235328, local=370
+2020-06-19 21:42:16.576205 INFO [10192] [authlib.cpp:815] al(815)>> 238514792@battlenet.oauth
+2020-06-19 21:42:16.576205 INFO [10192] [networklib.cpp:153] cnl(153)>>conn gt=.23.175:12187
+2020-06-19 21:42:16.576205 ERROR [10192] [stdafx.cpp:41] csm(72), delete sock=6768
+2020-06-19 21:42:16.626073 INFO [10192] [networklib.cpp:1254] cnl(1254)>>conn
+2020-06-19 21:42:16.783876 INFO [10192] [authlib.cpp:933] al(933)>>err=0, login: 12986377, 12986377, 5
+2020-06-19 21:42:16.810560 ERROR [10192] [netcallback.cpp:6817] get(6817)>>except wml err
+2020-06-19 21:42:16.877362 INFO [10192] [platformmanager.cpp:456] (948,456;169718093,221985), i=8, lg
+2020-06-19 21:42:16.878374 INFO [10192] [miniccinterface.cpp:224] d_mci(224), ss
+2020-06-19 21:42:16.891356 INFO [11584] [miniccinterface.cpp:583] d_mci(583), close=-1
+2020-06-19 21:42:17.755446 INFO [11584] [miniccinterface.cpp:1023] d_mci(1023), start ok
+2020-06-19 21:42:17.755446 INFO [11584] [miniccinterface.cpp:1996] d_mci(1996), create =0
+2020-06-19 21:42:17.813855 ERROR [11584] [miniccinterface.cpp:1641] d_mci(1641)>>err=-300
+2020-06-19 21:42:17.878720 ERROR [11584] [miniccinterface.cpp:1667] d_mci(1667)>>err=-300
+2020-06-19 21:42:17.941514 ERROR [11584] [miniccinterface.cpp:1694] d_mci(1694)>>err=-300
+2020-06-19 21:42:17.972430 INFO [10192] [gamesettings.cpp:181] cgst(181), no data
+2020-06-19 21:42:17.972430 INFO [10192] [malllib.cpp:91] ml(91)>>err=0
+2020-06-19 21:42:17.972430 ERROR [10192] [netcallback.cpp:6923] get(6923)>>except wndbp err
+2020-06-19 21:42:18.002351 INFO [11584] [miniccinterface.cpp:1130] d_mci(1130), create 0
+2020-06-19 21:42:18.040251 ERROR [10192] [netcallback.cpp:5863] get(5863)>>except wgwr err
+2020-06-19 21:42:18.073163 INFO [10192] [gameround.cpp:2030] SetLoginGameServerArgs(3-0-world_war3rpg_1)
+2020-06-19 21:42:18.073163 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.073163 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.073163 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.074159 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.074159 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.074159 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.074159 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.074159 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:42:18.074159 INFO [10192] [netcallback.cpp:1065] Request player info, season 0
+2020-06-19 21:42:18.228744 INFO [10192] [authlib.cpp:2073] al(2073)>>1 1 1
+2020-06-19 21:42:18.229782 ERROR [10192] [authlib.cpp:2493] al(2493)>>err=1149
+2020-06-19 21:42:22.526207 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:22.526207 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:22.526207 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:42:26.521200 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:26.521200 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:26.521200 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:42:32.233119 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:32.233119 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:32.233119 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:42:37.900954 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:37.900954 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:37.900954 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:42:44.017212 INFO [10192] [netcallback.cpp:2174] nlc(2174)>>ps, 1
+2020-06-19 21:42:44.017212 INFO [10192] [networklib.cpp:220] cnl(220)>>conn g=.72.97:12299
+2020-06-19 21:42:44.056895 INFO [10192] [networklib.cpp:1061] cnl(1061)>>conn
+2020-06-19 21:42:50.043061 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:50.043061 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:50.043061 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:42:56.006973 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:56.006973 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:56.006973 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:42:57.635161 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:57.635161 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:57.635161 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:42:58.276322 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=1001
+2020-06-19 21:42:58.276322 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:42:58.276322 ERROR [10192] [servererrorcode.cpp:755] error code: 1001
+2020-06-19 21:43:02.840886 ERROR [10192] [authlib.cpp:4259] al(4259)>>err=0
+2020-06-19 21:43:02.840886 ERROR [10192] [netcallback.cpp:2132] get(2132)>>except wmlw err
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:04.063591 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:43:15.966053 ERROR [09240] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:43:15.966053 ERROR [09240] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:43:15.966053 ERROR [09240] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:43:16.017117 ERROR [09240] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:43:16.017117 ERROR [09240] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:43:16.017117 ERROR [09240] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:43:16.017117 ERROR [09240] [networkinteractive.cpp:119] d_uni(119), err=2, 6592
+2020-06-19 21:44:02.457803 INFO [10192] [malllib.cpp:264] ml(264)>>err=0
+2020-06-19 21:44:02.457803 INFO [10192] [authlib.cpp:2913] al(2913)>>Player Property, 50, 50, 1, 100, 200, 50, 50, 5, 0, 0, 0
+2020-06-19 21:44:02.468770 INFO [10192] [malllib.cpp:334] ml(334)>>err=12986377
+2020-06-19 21:44:02.468770 ERROR [10192] [netcallback.cpp:7027] get(7027)>>except wmp err
+2020-06-19 21:44:02.468770 INFO [10192] [malllib.cpp:264] ml(264)>>err=0
+2020-06-19 21:44:02.468770 INFO [10192] [authlib.cpp:2913] al(2913)>>Player Property, 50, 50, 1, 100, 200, 50, 50, 5, 0, 0, 0
+2020-06-19 21:44:02.468770 INFO [10192] [malllib.cpp:334] ml(334)>>err=12986377
+2020-06-19 21:44:02.468770 ERROR [10192] [netcallback.cpp:7027] get(7027)>>except wmp err
+2020-06-19 21:44:02.469805 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.469805 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.469805 ERROR [10192] [mall.cpp:485] mall(485)>>err, 490
+2020-06-19 21:44:02.469805 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.469805 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.469805 ERROR [10192] [mall.cpp:485] mall(485)>>err, 490
+2020-06-19 21:44:02.470799 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.470799 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.470799 ERROR [10192] [mall.cpp:485] mall(485)>>err, 490
+2020-06-19 21:44:02.485764 INFO [10192] [malllib.cpp:264] ml(264)>>err=0
+2020-06-19 21:44:02.485764 INFO [10192] [authlib.cpp:2913] al(2913)>>Player Property, 50, 50, 1, 100, 200, 50, 50, 5, 0, 0, 0
+2020-06-19 21:44:02.485764 INFO [10192] [malllib.cpp:334] ml(334)>>err=12986377
+2020-06-19 21:44:02.485764 ERROR [10192] [netcallback.cpp:7027] get(7027)>>except wmp err
+2020-06-19 21:44:02.486729 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.486729 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.486729 ERROR [10192] [mall.cpp:485] mall(485)>>err, 490
+2020-06-19 21:44:02.486729 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.486729 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.486729 ERROR [10192] [mall.cpp:485] mall(485)>>err, 490
+2020-06-19 21:44:02.486729 INFO [10192] [malllib.cpp:264] ml(264)>>err=0
+2020-06-19 21:44:02.486729 INFO [10192] [authlib.cpp:2913] al(2913)>>Player Property, 50, 50, 1, 100, 200, 50, 50, 5, 0, 0, 0
+2020-06-19 21:44:02.487759 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.487759 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.487759 ERROR [10192] [mall.cpp:485] mall(485)>>err, 490
+2020-06-19 21:44:02.487759 INFO [10192] [malllib.cpp:334] ml(334)>>err=12986377
+2020-06-19 21:44:02.487759 ERROR [10192] [netcallback.cpp:7027] get(7027)>>except wmp err
+2020-06-19 21:44:02.487759 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.488715 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=490, not found.
+2020-06-19 21:44:02.488715 ERROR [10192] [mall.cpp:485] mall(485)>>err, 490
+2020-06-19 21:44:02.488715 INFO [10192] [gameroundlib.cpp:7477] grl(7477)>>fetch mail=17958297, err=0
+2020-06-19 21:44:02.619369 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:02.629343 INFO [10192] [itemconfigmanager.cpp:267] item updated, 490,E20200202,µØÍ¼¾­Ñé¿¨,https://blz.nosdn.127.net/4/shop/platform/vip_01/jyk_01_20180801.jpg,,,
+2020-06-19 21:44:02.629343 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:13.748693 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.748693 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.750700 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.750700 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.751684 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.751684 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.752683 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.752683 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.770633 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.770633 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.779610 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.779610 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.779610 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.779610 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.780642 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.780642 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.780642 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.781643 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.811561 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.812558 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.818543 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.819540 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.819540 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.819540 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.819540 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.819540 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.819540 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.820536 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.820536 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.820536 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.820536 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.820536 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.820536 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.821538 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.821538 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.821538 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.821538 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.821538 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.823529 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.823529 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.823529 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.823529 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.823529 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.823529 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.824524 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.824524 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.824524 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.824524 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.824524 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.825523 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.825523 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.825523 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.825523 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.825523 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.825523 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.825523 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.826521 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.827518 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.827518 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.827518 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.827518 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.827518 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.827518 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.827518 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.828480 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.828480 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.828480 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.828480 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.828480 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.829516 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.829516 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.829516 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.829516 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.829516 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.830510 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.830510 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.830510 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.831507 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.831507 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.831507 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.831507 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.831507 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.831507 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.832504 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.832504 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.832504 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.832504 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.832504 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.832504 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.832504 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.833503 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.833503 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.834501 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.834501 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.834501 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.834501 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.834501 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.834501 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.835497 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.835497 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.835497 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.835497 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.835497 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.835497 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.836493 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.836493 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.836493 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.836493 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.836493 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.836493 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.838454 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.838454 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.838454 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.838454 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.838454 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.839452 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.839452 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.839452 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.839452 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.839452 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.840448 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.840448 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.840448 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.840448 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.840448 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.840448 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.840448 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.841445 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.842442 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.842442 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.842442 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.842442 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.842442 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.842442 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.843467 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.843467 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.843467 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.843467 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000001, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10009241, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10004054, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10015079, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.844465 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=10023655, not found.
+2020-06-19 21:44:13.917241 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:13.926218 INFO [10192] [itemconfigmanager.cpp:267] item updated, 10009241,19MODU24J,Ç§Ñ©,https://dzplatform.nosdn.127.net/upload/8694e11399d7d3f02839023dbb3439c0.jpg,,,
+2020-06-19 21:44:13.926218 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:13.926218 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:13.936193 INFO [10192] [itemconfigmanager.cpp:267] item updated, 10004054,SHOPITEM01,ÔŞÖúÌØÈ¨,https://dzplatform.nosdn.127.net/upload/0549e3bd61554d3324741a2b954a0ddf.jpg,,,
+2020-06-19 21:44:13.936193 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:13.936193 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:13.945168 INFO [10192] [itemconfigmanager.cpp:267] item updated, 10015079,PTLB,Æ´Í¼Àñ°ü,https://dzplatform.nosdn.127.net/upload/19a12fd4d872e1ec3175a2be28a84965.png,,,
+2020-06-19 21:44:13.945168 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:13.945168 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:13.953146 INFO [10192] [itemconfigmanager.cpp:267] item updated, 10023655,ZZTX,ÖÁ×ğÍ¨ĞĞÖ¤,https://dzplatform.nosdn.127.net/upload/b245c22cc349d3db0176c0fc7f12bbf1.jpg,,,
+2020-06-19 21:44:13.954144 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:13.954144 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:13.963120 INFO [10192] [itemconfigmanager.cpp:267] item updated, 1000001,freevip,ÌåÑé°æÈÙÒ«»áÔ±,https://blz.nosdn.127.net/4/shop/platform/honour_vip/honour_vipx.jpg,,,
+2020-06-19 21:44:13.963120 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:16.858314 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.858314 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.874230 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.875228 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.879184 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.879184 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.879184 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.879184 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.880183 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.881177 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.881177 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:16.881177 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=1000009, not found.
+2020-06-19 21:44:17.019270 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:17.111959 INFO [10192] [itemconfigmanager.cpp:267] item updated, 1000009,ch200615,ôÕÏãÇéÅ¨,https://blz.nosdn.127.net/4/title/ch200615.jpg,,,
+2020-06-19 21:44:17.111959 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:18.301192 INFO [10192] [malllib.cpp:264] ml(264)>>err=0
+2020-06-19 21:44:18.301192 INFO [10192] [authlib.cpp:2913] al(2913)>>Player Property, 50, 50, 1, 100, 200, 50, 50, 5, 0, 0, 0
+2020-06-19 21:44:18.301192 INFO [10192] [malllib.cpp:334] ml(334)>>err=12986377
+2020-06-19 21:44:18.301192 ERROR [10192] [netcallback.cpp:7027] get(7027)>>except wmp err
+2020-06-19 21:44:21.668668 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=480, not found.
+2020-06-19 21:44:21.669703 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=480, not found.
+2020-06-19 21:44:21.669703 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=479, not found.
+2020-06-19 21:44:21.670698 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=479, not found.
+2020-06-19 21:44:21.673655 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=480, not found.
+2020-06-19 21:44:21.674686 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=480, not found.
+2020-06-19 21:44:21.674686 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=479, not found.
+2020-06-19 21:44:21.674686 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=479, not found.
+2020-06-19 21:44:21.675675 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=480, not found.
+2020-06-19 21:44:21.675675 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=480, not found.
+2020-06-19 21:44:21.675675 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=479, not found.
+2020-06-19 21:44:21.675675 ERROR [10192] [itemconfigmanager.cpp:156] itm(156)>>err=479, not found.
+2020-06-19 21:44:21.811240 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:21.949327 INFO [10192] [itemconfigmanager.cpp:267] item updated, 480,20200306,ºÚ°µÓÎÏÀÍ·Ïñ,https://blz.nosdn.127.net/4/shop/platform/1/20200306.gif,20200306,,
+2020-06-19 21:44:21.949327 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:21.949327 INFO [10192] [malllib.cpp:308] ml(308)>>err=0
+2020-06-19 21:44:21.958370 INFO [10192] [itemconfigmanager.cpp:267] item updated, 479,ch200306,ÍõÕß¹éÀ´,https://blz.nosdn.127.net/4/title/ch200306.jpg,,,
+2020-06-19 21:44:21.958370 ERROR [10192] [netcallback.cpp:7002] get(7002)>>except wndbp err
+2020-06-19 21:44:30.658159 INFO [10192] [malllib.cpp:264] ml(264)>>err=0
+2020-06-19 21:44:30.658159 INFO [10192] [authlib.cpp:2913] al(2913)>>Player Property, 50, 50, 1, 100, 200, 50, 50, 5, 0, 0, 0
+2020-06-19 21:44:30.659137 INFO [10192] [malllib.cpp:334] ml(334)>>err=12986377
+2020-06-19 21:44:30.659137 ERROR [10192] [netcallback.cpp:7027] get(7027)>>except wmp err
+2020-06-19 21:44:30.660133 INFO [10192] [gameroundlib.cpp:7980] grl(7980)>>dr, err=0
+2020-06-19 21:44:50.449414 INFO [10192] [malllib.cpp:264] ml(264)>>err=0
+2020-06-19 21:44:50.449414 INFO [10192] [authlib.cpp:2913] al(2913)>>Player Property, 50, 50, 1, 100, 200, 50, 50, 8, 0, 0, 0
+2020-06-19 21:44:50.465162 INFO [10192] [malllib.cpp:461] ml(461)>>err=0, i=0, c=8
+2020-06-19 21:44:50.465162 ERROR [10192] [netcallback.cpp:7099] get(7099)>>except wndbp err
+2020-06-19 21:44:50.537969 INFO [10192] [gameassist.cpp:4750] ga(4750)>>cc=1
+2020-06-19 21:45:17.713837 INFO [10192] [gameround.cpp:2030] SetLoginGameServerArgs(2-0-world_war3vs_1)
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:17.714859 INFO [10192] [netcallback.cpp:1065] Request player info, season 0
+2020-06-19 21:45:17.805591 INFO [10192] [authlib.cpp:2073] al(2073)>>50 50 50
+2020-06-19 21:45:17.806593 ERROR [10192] [authlib.cpp:2493] al(2493)>>err=1149
+2020-06-19 21:45:26.601032 INFO [10192] [gameround.cpp:2030] SetLoginGameServerArgs(1-0-world_dota_1)
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 ERROR [10192] [commonlibshell.cpp:98] cls(98), err=2
+2020-06-19 21:45:26.601032 INFO [10192] [netcallback.cpp:1065] Request player info, season 0
+2020-06-19 21:45:26.663383 INFO [10192] [authlib.cpp:2073] al(2073)>>1 1 1
+2020-06-19 21:45:26.663383 INFO [10192] [blackroominfomgr.cpp:147] bri(147)>>map id: -1, match_type: QFRD, game mode: , status 0, need_times: 0, finish times: 0, have_times: 0
+2020-06-19 21:45:26.663383 INFO [10192] [blackroominfomgr.cpp:147] bri(147)>>map id: -1, match_type: QFAP, game mode: , status 0, need_times: 0, finish times: 0, have_times: 0
+2020-06-19 21:45:26.663383 ERROR [10192] [authlib.cpp:2493] al(2493)>>err=1149
+2020-06-19 21:45:43.826347 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:43.880802 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:43.945691 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:44.013083 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:44.047516 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:44.059468 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:44.460227 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:44.923736 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:44.963644 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:45.451303 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:45.923110 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:46.036329 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:46.234827 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:46.267307 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:47.015064 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:47.074904 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:47.995659 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:48.051510 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:45:48.113364 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:50:06.991904 INFO [13340] [updatethread.cpp:42] unzip=E:\dzclient\temp\war3\dz_war3_1.27a.dzp, dest=E:\dzclient\
+2020-06-19 21:50:06.992913 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/
+2020-06-19 21:50:06.992913 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/blizzard.ax
+2020-06-19 21:50:07.019830 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Frozen Throne.exe
+2020-06-19 21:50:07.985321 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Game.dll
+2020-06-19 21:50:08.113978 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/ijl15.dll
+2020-06-19 21:50:08.138934 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/
+2020-06-19 21:50:08.138934 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(10)DustwallowKeys.w3m
+2020-06-19 21:50:08.152901 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(12)DivideAndConquer.w3m
+2020-06-19 21:50:08.171833 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(12)IceCrown.w3m
+2020-06-19 21:50:08.197752 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(2)BootyBay.w3m
+2020-06-19 21:50:08.210719 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(2)Harrow.w3m
+2020-06-19 21:50:08.221688 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(2)HillsOfGlory.w3m
+2020-06-19 21:50:08.232659 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(2)OgreMound.w3m
+2020-06-19 21:50:08.253603 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(2)PlunderIsle.w3m
+2020-06-19 21:50:08.264608 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(3)Forestwalk.w3m
+2020-06-19 21:50:08.281567 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(3)IsleOfDread.w3m
+2020-06-19 21:50:08.296509 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(3)Nighthaven.w3m
+2020-06-19 21:50:08.309454 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)Adrenaline.w3m
+2020-06-19 21:50:08.322420 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)Borderlands.w3m
+2020-06-19 21:50:08.333389 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)Deadwaterdrop.w3m
+2020-06-19 21:50:08.358353 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)DragonMountain.w3m
+2020-06-19 21:50:08.369323 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)Duskwood.w3m
+2020-06-19 21:50:08.383288 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)Frostsabre.w3m
+2020-06-19 21:50:08.393296 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)HarvestMoon.w3m
+2020-06-19 21:50:08.404232 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)HeartToHeart.w3m
+2020-06-19 21:50:08.419226 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)Legends.w3m
+2020-06-19 21:50:08.432189 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)LostTemple.w3m
+2020-06-19 21:50:08.497982 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)MysticIsles.w3m
+2020-06-19 21:50:08.511971 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)TranquilPaths.w3m
+2020-06-19 21:50:08.528898 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(4)TurtleRock~3.w3x
+2020-06-19 21:50:08.541863 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(5)TheGlaive.w3m
+2020-06-19 21:50:08.554855 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)DarkForest.w3m
+2020-06-19 21:50:08.653326 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)DragonFire.w3m
+2020-06-19 21:50:08.667176 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)DrywaterGulch.w3m
+2020-06-19 21:50:08.680178 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)GnollWood.w3m
+2020-06-19 21:50:08.691112 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)Moonglade.w3m
+2020-06-19 21:50:08.703109 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)ScorchedBasin.w3m
+2020-06-19 21:50:08.714063 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)Stromguarde.w3m
+2020-06-19 21:50:08.727046 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)SwampOfSorrows.w3m
+2020-06-19 21:50:08.740021 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(6)TimbermawHold.w3m
+2020-06-19 21:50:08.755954 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)Battleground.w3m
+2020-06-19 21:50:08.770902 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)BlastedLands.w3m
+2020-06-19 21:50:08.782866 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)BloodvenomFalls.w3m
+2020-06-19 21:50:08.795871 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)GardenOfWar.w3m
+2020-06-19 21:50:08.818778 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)GolemsInTheMist.w3m
+2020-06-19 21:50:08.829769 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)PetrifiedForest.w3m
+2020-06-19 21:50:08.843703 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)Plaguelands.w3m
+2020-06-19 21:50:08.856669 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)PlainsOfSnow.w3m
+2020-06-19 21:50:08.867859 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(8)TheCrucible.w3m
+2020-06-19 21:50:08.883818 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/(9)Riverrun.w3m
+2020-06-19 21:50:08.894824 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/
+2020-06-19 21:50:08.894824 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/BonusCredits.w3m
+2020-06-19 21:50:08.913735 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human01.w3m
+2020-06-19 21:50:08.924737 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human02.w3m
+2020-06-19 21:50:08.935704 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human02Interlude.w3m
+2020-06-19 21:50:08.947683 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human03.w3m
+2020-06-19 21:50:08.959645 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human04.w3m
+2020-06-19 21:50:08.973577 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human05.w3m
+2020-06-19 21:50:08.992556 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human05Interlude.w3m
+2020-06-19 21:50:09.001528 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human06.w3m
+2020-06-19 21:50:09.015462 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human06Interlude.w3m
+2020-06-19 21:50:09.025477 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human07.w3m
+2020-06-19 21:50:09.036407 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human08.w3m
+2020-06-19 21:50:09.048386 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Human09.w3m
+2020-06-19 21:50:09.060379 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf01.w3m
+2020-06-19 21:50:09.072316 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf02.w3m
+2020-06-19 21:50:09.083317 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf03.w3m
+2020-06-19 21:50:09.093293 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf04.w3m
+2020-06-19 21:50:09.107262 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf05.w3m
+2020-06-19 21:50:09.120183 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf06.w3m
+2020-06-19 21:50:09.130156 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf06Interlude.w3m
+2020-06-19 21:50:09.142124 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/NightElf07.w3m
+2020-06-19 21:50:09.155092 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc01.w3m
+2020-06-19 21:50:09.174041 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc02.w3m
+2020-06-19 21:50:09.186009 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc02Interlude.w3m
+2020-06-19 21:50:09.204982 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc03.w3m
+2020-06-19 21:50:09.215929 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc04.w3m
+2020-06-19 21:50:09.249836 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc04Interlude.w3m
+2020-06-19 21:50:09.259810 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc05.w3m
+2020-06-19 21:50:09.275768 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc06.w3m
+2020-06-19 21:50:09.288760 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc07.w3m
+2020-06-19 21:50:09.298733 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Orc08.w3m
+2020-06-19 21:50:09.319651 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02.w3x
+2020-06-19 21:50:09.334638 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_02.w3x
+2020-06-19 21:50:09.348587 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_03.w3x
+2020-06-19 21:50:09.361537 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_04.w3x
+2020-06-19 21:50:09.372539 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_05.w3x
+2020-06-19 21:50:09.385473 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_06.w3x
+2020-06-19 21:50:09.398438 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_07.w3x
+2020-06-19 21:50:09.413406 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_08.w3x
+2020-06-19 21:50:09.424420 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_09.w3x
+2020-06-19 21:50:09.437335 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX02_10.w3x
+2020-06-19 21:50:09.448318 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX03a.w3x
+2020-06-19 21:50:09.459275 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/OrcX03b.w3x
+2020-06-19 21:50:09.473238 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Prologue01.w3m
+2020-06-19 21:50:09.490193 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Prologue02.w3m
+2020-06-19 21:50:09.505156 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead01.w3m
+2020-06-19 21:50:09.517120 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead02.w3m
+2020-06-19 21:50:09.530086 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead02Interlude.w3m
+2020-06-19 21:50:09.544049 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead03.w3m
+2020-06-19 21:50:09.557016 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead04.w3m
+2020-06-19 21:50:09.580950 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead05.w3m
+2020-06-19 21:50:09.593915 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead05interlude.w3m
+2020-06-19 21:50:09.603889 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead06.w3m
+2020-06-19 21:50:09.615859 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead07.w3m
+2020-06-19 21:50:09.627825 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/Undead08.w3m
+2020-06-19 21:50:09.641805 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Campaign/WarCraftIIICredits.w3m
+2020-06-19 21:50:09.655750 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Download/
+2020-06-19 21:50:09.655750 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Download/DotA v6.77b AI 1.4 CN.w3x
+2020-06-19 21:50:09.709606 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Download/DotA_v6.83d.w3x
+2020-06-19 21:50:09.758476 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/
+2020-06-19 21:50:09.758476 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(10)RagingStream.w3x
+2020-06-19 21:50:09.770470 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(12)EmeraldGardens.w3x
+2020-06-19 21:50:09.789448 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)Amazonia.w3x
+2020-06-19 21:50:09.800364 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)AncientIsles.w3x
+2020-06-19 21:50:09.811333 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)BanditRidge.w3x
+2020-06-19 21:50:09.823302 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)Circumvention.w3x
+2020-06-19 21:50:09.835307 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)CrystalKingdom1.3.w3x
+2020-06-19 21:50:09.849246 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)DeathRoad1.2.w3x
+2020-06-19 21:50:09.861200 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)EchoIsles.w3x
+2020-06-19 21:50:09.871176 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)GlacialThaw.w3x
+2020-06-19 21:50:09.886174 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)Korea.w3x
+2020-06-19 21:50:09.896107 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)LastRefuge-1.3.w3x
+2020-06-19 21:50:09.907078 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)MeltingValley.w3x
+2020-06-19 21:50:09.920043 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)RoadToStratholme.w3x
+2020-06-19 21:50:09.931015 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)SecretValley.w3x
+2020-06-19 21:50:09.947968 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)ShrineOfTheAncients.w3x
+2020-06-19 21:50:09.961974 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)TerenasStand.w3x
+2020-06-19 21:50:09.974897 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)TheTwoRivers.w3x
+2020-06-19 21:50:10.020773 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(2)TirisfalGlades.w3x
+2020-06-19 21:50:10.031744 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(3)NomadIsles1.2.w3x
+2020-06-19 21:50:10.043714 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Adrenaline.w3x
+2020-06-19 21:50:10.053725 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Avalanche.w3x
+2020-06-19 21:50:10.065682 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)BridgeTooNear.w3x
+2020-06-19 21:50:10.080615 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)BrokenShard.w3x
+2020-06-19 21:50:10.093611 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)CentaurGrove.w3x
+2020-06-19 21:50:10.107540 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)ColdHeart.w3x
+2020-06-19 21:50:10.118515 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Deathrose.w3x
+2020-06-19 21:50:10.130508 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)DesertStrife.w3x
+2020-06-19 21:50:10.141482 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)DevilsCauldron.w3x
+2020-06-19 21:50:10.151453 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)ExcavationSite.w3x
+2020-06-19 21:50:10.163421 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)FloodPlains.w3x
+2020-06-19 21:50:10.175061 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)FloodPlains1v1.w3x
+2020-06-19 21:50:10.187031 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)FrozenClover.w3x
+2020-06-19 21:50:10.206977 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Goldshire.w3x
+2020-06-19 21:50:10.222934 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)HailStone.w3x
+2020-06-19 21:50:10.249900 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)HearthglenHills.w3x
+2020-06-19 21:50:10.263861 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Hellfire.w3x
+2020-06-19 21:50:10.275794 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)IceFlow.w3x
+2020-06-19 21:50:10.287781 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)IceForge.w3x
+2020-06-19 21:50:10.299728 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Islands.w3x
+2020-06-19 21:50:10.311697 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)LostTemple.w3x
+2020-06-19 21:50:10.325659 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)ParadiseIslands.w3x
+2020-06-19 21:50:10.338624 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)PhantomGrove.w3x
+2020-06-19 21:50:10.351590 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Predators.w3x
+2020-06-19 21:50:10.364595 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Roundabout.w3x
+2020-06-19 21:50:10.378517 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Ruins.w3x
+2020-06-19 21:50:10.390525 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)StoneColdMountain.w3x
+2020-06-19 21:50:10.404448 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Tanaris.w3x
+2020-06-19 21:50:10.415850 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)TidewaterGlades.w3x
+2020-06-19 21:50:10.430830 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)TurtleRock.w3x
+2020-06-19 21:50:10.443811 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)TwistedMeadows.w3x
+2020-06-19 21:50:10.462735 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Venetia.w3x
+2020-06-19 21:50:10.472698 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Wetlands.w3x
+2020-06-19 21:50:10.500669 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)Whirlwind.w3x
+2020-06-19 21:50:10.512591 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(4)WindyWaste.w3x
+2020-06-19 21:50:10.528587 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Andorhal.w3x
+2020-06-19 21:50:10.542511 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)BloodstoneMesa.w3x
+2020-06-19 21:50:10.552485 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)CopperCanyon.w3x
+2020-06-19 21:50:10.564453 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Demon'sCrossing.w3x
+2020-06-19 21:50:10.580077 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)DragonBlight.w3x
+2020-06-19 21:50:10.593097 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Duststorm.w3x
+2020-06-19 21:50:10.606007 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)EmeraldShores.w3x
+2020-06-19 21:50:10.634950 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)EnakrosWay.w3x
+2020-06-19 21:50:10.645928 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Everfrost.w3x
+2020-06-19 21:50:10.655930 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)GnollWood.w3x
+2020-06-19 21:50:10.668370 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)HavenOfTheDamned.w3x
+2020-06-19 21:50:10.679364 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Highperch.w3x
+2020-06-19 21:50:10.694288 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)HinterlandRaid.w3x
+2020-06-19 21:50:10.709259 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Jack-o-Lantern.w3x
+2020-06-19 21:50:10.721215 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)JungleFever.w3x
+2020-06-19 21:50:10.733184 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Monsoon.w3x
+2020-06-19 21:50:10.744171 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Moonglade.w3x
+2020-06-19 21:50:10.756152 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)RiceFields.w3x
+2020-06-19 21:50:10.769088 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)RiverOfSouls.w3x
+2020-06-19 21:50:10.780095 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)RollingHills.w3x
+2020-06-19 21:50:10.791031 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)RuinsOfStratholme.w3x
+2020-06-19 21:50:10.806003 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)SavageStorm.w3x
+2020-06-19 21:50:10.818955 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)ScorchedBasin.w3x
+2020-06-19 21:50:12.383612 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)SilverpineForest.w3x
+2020-06-19 21:50:12.397576 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)StranglethornVale.w3x
+2020-06-19 21:50:12.408545 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)SunrockCove.w3x
+2020-06-19 21:50:12.421510 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)ThunderLake.w3x
+2020-06-19 21:50:12.434514 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)TimbermawHold.w3x
+2020-06-19 21:50:12.446447 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Typhoon.w3x
+2020-06-19 21:50:12.686837 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)UpperKingdom.w3x
+2020-06-19 21:50:12.702759 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)Wellspring.w3x
+2020-06-19 21:50:12.715759 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)WheelofChaos.w3x
+2020-06-19 21:50:12.725697 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(6)WizardsRetreat.w3x
+2020-06-19 21:50:12.738692 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Battleground.w3x
+2020-06-19 21:50:12.750658 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Cherryville.w3x
+2020-06-19 21:50:12.764593 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Deadlands.w3x
+2020-06-19 21:50:12.779580 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Deadlock.w3x
+2020-06-19 21:50:12.800532 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Deathknell.w3x
+2020-06-19 21:50:12.812464 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)DragonFalls.w3x
+2020-06-19 21:50:12.823464 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Feralas.w3x
+2020-06-19 21:50:12.837433 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Friends.w3x
+2020-06-19 21:50:12.854380 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)FullScaleAssault.w3x
+2020-06-19 21:50:12.867318 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)GardenOfWar.w3x
+2020-06-19 21:50:12.883275 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)GoldRush.w3x
+2020-06-19 21:50:12.900269 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)HurricaneIsle.w3x
+2020-06-19 21:50:12.921211 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)LastManStanding.w3x
+2020-06-19 21:50:12.935174 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)MarketSquare.w3x
+2020-06-19 21:50:13.623857 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Mur'gulOasis.w3x
+2020-06-19 21:50:13.637594 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Northshire.w3x
+2020-06-19 21:50:13.654547 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)PlainsOfSnow.w3x
+2020-06-19 21:50:13.669513 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)RockQuarry.w3x
+2020-06-19 21:50:13.688457 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Sanctuary.w3x
+2020-06-19 21:50:13.701453 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)ShamrockReef.w3x
+2020-06-19 21:50:13.714387 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)Slalom.w3x
+2020-06-19 21:50:13.730382 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)SpiderFalls.w3x
+2020-06-19 21:50:13.741317 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)TheCrossroads.w3x
+2020-06-19 21:50:13.752321 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(8)TwilightRuins.w3x
+2020-06-19 21:50:13.767246 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/(9)RoundVillage.w3x
+2020-06-19 21:50:13.780242 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/
+2020-06-19 21:50:13.780242 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX01.w3x
+2020-06-19 21:50:13.791585 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX02.w3x
+2020-06-19 21:50:13.803553 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX03.w3x
+2020-06-19 21:50:13.815536 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX03Interlude.w3x
+2020-06-19 21:50:13.829529 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX03Secret.w3x
+2020-06-19 21:50:13.842478 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX04.w3x
+2020-06-19 21:50:14.199108 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX04Interlude.w3x
+2020-06-19 21:50:14.210068 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX05.w3x
+2020-06-19 21:50:14.221069 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX06.w3x
+2020-06-19 21:50:14.233043 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/HumanX06Finale.w3x
+2020-06-19 21:50:14.247977 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX01.w3x
+2020-06-19 21:50:14.257942 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX02.w3x
+2020-06-19 21:50:14.269908 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX03.w3x
+2020-06-19 21:50:14.283871 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX04.w3x
+2020-06-19 21:50:14.302472 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX04Interlude.w3x
+2020-06-19 21:50:14.317431 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX05.w3x
+2020-06-19 21:50:14.332389 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX06.w3x
+2020-06-19 21:50:14.347345 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX06Interlude.w3x
+2020-06-19 21:50:14.357321 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX07.w3x
+2020-06-19 21:50:14.369256 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX08.w3x
+2020-06-19 21:50:14.380226 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/NightElfX08Finale.w3x
+2020-06-19 21:50:14.392823 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX01.w3x
+2020-06-19 21:50:14.410773 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX01_02.w3x
+2020-06-19 21:50:14.420802 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX01_03.w3x
+2020-06-19 21:50:14.431746 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX01_04.w3x
+2020-06-19 21:50:14.442715 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX01_05.w3x
+2020-06-19 21:50:14.465626 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02.w3x
+2020-06-19 21:50:14.478623 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_02.w3x
+2020-06-19 21:50:14.489598 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_03.w3x
+2020-06-19 21:50:14.500608 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_04.w3x
+2020-06-19 21:50:14.512564 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_05.w3x
+2020-06-19 21:50:14.523599 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_06.w3x
+2020-06-19 21:50:14.538470 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_07.w3x
+2020-06-19 21:50:14.549472 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_08.w3x
+2020-06-19 21:50:14.561406 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_09.w3x
+2020-06-19 21:50:14.577389 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX02_10.w3x
+2020-06-19 21:50:14.589332 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX03a.w3x
+2020-06-19 21:50:14.603294 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/OrcX03b.w3x
+2020-06-19 21:50:14.616286 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX01.w3x
+2020-06-19 21:50:14.629225 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX01Interlude.w3x
+2020-06-19 21:50:14.643215 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX02.w3x
+2020-06-19 21:50:14.804754 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX02Interlude.w3x
+2020-06-19 21:50:14.818717 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX03.w3x
+2020-06-19 21:50:14.830684 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX04.w3x
+2020-06-19 21:50:14.842689 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX05.w3x
+2020-06-19 21:50:14.853659 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX06.w3x
+2020-06-19 21:50:14.865592 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX07a.w3x
+2020-06-19 21:50:14.881585 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX07b.w3x
+2020-06-19 21:50:14.896509 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX07c.w3x
+2020-06-19 21:50:14.913501 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX07Interlude.w3x
+2020-06-19 21:50:14.924434 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/UndeadX08.w3x
+2020-06-19 21:50:14.936403 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/War3XBonusCredits.w3x
+2020-06-19 21:50:14.948371 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Campaign/War3XRegularCreditsIce.w3x
+2020-06-19 21:50:14.958343 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/
+2020-06-19 21:50:14.958343 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(10)ExtremeCandyWar2004.w3x
+2020-06-19 21:50:14.989260 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(10)Skibi'sCastleTD.w3x
+2020-06-19 21:50:15.009207 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(12)WormWar.w3x
+2020-06-19 21:50:15.020207 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(4)Monolith.w3x
+2020-06-19 21:50:15.040163 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(6)BlizzardTD.w3x
+2020-06-19 21:50:15.057080 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(6)BomberCommand.w3x
+2020-06-19 21:50:16.498924 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(8)AzerothGrandPrix.w3x
+2020-06-19 21:50:16.519894 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(8)AzureTowerDefense.w3x
+2020-06-19 21:50:16.529841 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/FrozenThrone/Scenario/(8)FunnyBunnysEggHunt.w3x
+2020-06-19 21:50:16.554800 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Scenario/
+2020-06-19 21:50:16.554800 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Scenario/(1)TheDeathSheep.w3m
+2020-06-19 21:50:16.567823 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Scenario/(4)WarChasers.w3m
+2020-06-19 21:50:17.830154 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Scenario/(6)BlizzardTD.w3x
+2020-06-19 21:50:17.847108 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Maps/Scenario/(8)AzureTowerDefense.w3x
+2020-06-19 21:50:17.861073 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/
+2020-06-19 21:50:17.862090 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/HumanEd.mpq
+2020-06-19 21:50:18.011078 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/HumanOp.mpq
+2020-06-19 21:50:18.193598 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/IntroX.mpq
+2020-06-19 21:50:18.393059 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/NightElfEd.mpq
+2020-06-19 21:50:18.533680 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/OrcEd.mpq
+2020-06-19 21:50:18.743119 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/OutroX.mpq
+2020-06-19 21:50:18.935606 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/TutorialIn.mpq
+2020-06-19 21:50:19.129122 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/TutorialOp.mpq
+2020-06-19 21:50:19.286706 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Movies/UndeadEd.mpq
+2020-06-19 21:50:19.389391 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Mss32.dll
+2020-06-19 21:50:19.419348 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/msvcp120.dll
+2020-06-19 21:50:19.449306 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/msvcr120.dll
+2020-06-19 21:50:19.564996 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/redist/
+2020-06-19 21:50:19.564996 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/redist/miles/
+2020-06-19 21:50:19.564996 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/redist/miles/Mp3dec.asi
+2020-06-19 21:50:19.584949 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/redist/miles/Mssdolby.m3d
+2020-06-19 21:50:19.611835 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/redist/miles/Msseax2.m3d
+2020-06-19 21:50:19.734412 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/redist/miles/Mssfast.m3d
+2020-06-19 21:50:19.757012 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/redist/miles/Reverb3.flt
+2020-06-19 21:50:19.776984 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Storm.dll
+2020-06-19 21:50:19.809900 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/War3.exe
+2020-06-19 21:50:19.853005 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/war3.mpq
+2020-06-19 21:50:22.542949 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/War3Patch.mpq
+2020-06-19 21:50:22.862093 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/War3x.mpq
+2020-06-19 21:50:25.359563 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/War3xLocal.mpq
+2020-06-19 21:50:26.110131 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/Warcraft III.exe
+2020-06-19 21:50:27.267161 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/World Editor.exe
+2020-06-19 21:50:29.363420 INFO [13340] [updatethread.cpp:93] unzip Warcraft III Frozen Throne/WorldEdit.exe
+2020-06-19 21:50:29.689572 INFO [13340] [updatethread.cpp:48] unzip=E:\dzclient\temp\war3\dz_war3_1.27a.dzp, dest=E:\dzclient\, success=1
+2020-06-19 21:50:30.023679 INFO [10192] [gameassist.cpp:1058] gars(1058), sl 0
+2020-06-19 21:50:30.023679 INFO [10192] [gameassist.cpp:1145] gars(1145), ul
+2020-06-19 21:50:30.111450 ERROR [02572] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:50:30.111450 ERROR [02572] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:30.111450 ERROR [02572] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:30.162307 ERROR [02572] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:50:30.162307 ERROR [02572] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:30.162307 ERROR [02572] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:30.162307 ERROR [02572] [networkinteractive.cpp:119] d_uni(119), err=2, 1648
+2020-06-19 21:50:33.884295 ERROR [10192] [wndupdatebase.cpp:669] wud(669), err=8, http://fastdl.nie.163.com/war3_1.32.6.15355.retail.dzp.data
+2020-06-19 21:50:33.884295 ERROR [10192] [wndupdatebase.cpp:478] wud(478), download failed, retry=http://fastdl.nie.163.com/war3_1.32.6.15355.retail.dzp.data
+2020-06-19 21:50:33.942859 ERROR [16164] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:50:33.942859 ERROR [16164] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:33.942859 ERROR [16164] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:33.993723 ERROR [16164] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:50:33.993723 ERROR [16164] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:33.993723 ERROR [16164] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:33.993723 ERROR [16164] [networkinteractive.cpp:119] d_uni(119), err=2, 8788
+2020-06-19 21:50:37.384688 ERROR [10192] [wndupdatebase.cpp:669] wud(669), err=8, http://fastdl.nie.163.com/war3_1.32.6.15355.retail.dzp.data
+2020-06-19 21:50:37.384688 ERROR [10192] [wndupdatebase.cpp:478] wud(478), download failed, retry=http://fastdl.nie.163.com/war3_1.32.6.15355.retail.dzp.data
+2020-06-19 21:50:37.466470 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:50:37.466470 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:37.466470 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:37.517333 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:50:37.517333 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:37.517333 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:37.568197 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=0, -1
+2020-06-19 21:50:37.568197 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:37.568197 ERROR [13872] [networkinteractive.cpp:156] d_uni(156), err=6, -1
+2020-06-19 21:50:37.568197 ERROR [13872] [networkinteractive.cpp:119] d_uni(119), err=0, 8768
+2020-06-19 21:50:40.878684 ERROR [10192] [wndupdatebase.cpp:669] wud(669), err=5, http://fastdl.nie.163.com/war3_1.32.6.15355.retail.dzp.data
+2020-06-19 21:50:40.878684 ERROR [10192] [wndupdatebase.cpp:474] wud(474), download failed, retry=http://w3r.gdl.netease.com/war3_1.32.6.15355.retail.dzp
+2020-06-19 21:51:18.614384 ERROR [10192] [gameassist.cpp:5926] ga(5926), err
+2020-06-19 21:51:22.447808 ERROR [10192] [qtexthttpdownload.cpp:311] qehd(311), err 5 200, download of http://w3r.gdl.netease.com/war3_1.32.6.15355.retail.dzp canceled : Operation canceled
+2020-06-19 21:51:31.018529 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.020489 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.023479 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.041471 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.041471 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.057466 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.057466 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.074420 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.074420 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.103304 ERROR [10192] [wndlobby.cpp:1594] wl(1594), err
+2020-06-19 21:51:31.103304 ERROR [10192] [wndlobby.cpp:1603] wl(1603), err
+2020-06-19 21:51:31.103304 INFO [10192] [platformmanager.cpp:532] pm(532)>>lgt
+2020-06-19 21:51:31.103304 INFO [10192] [authlib.cpp:1510] al(1510>>sv
+2020-06-19 21:51:31.204972 INFO [10192] [platformmodule.cpp:80] pmd(80)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [engine.cpp:203] d_eg(203)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [im.cpp:76] d_im(76)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [war3engine.cpp:55] d_we(55)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [war3processmanager.cpp:107] d_wpm(107)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [war3proxy.cpp:612] wpl(612)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [gameroundlib.cpp:75] grl(75)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [gameround.cpp:119] gr(119)>> Clear
+2020-06-19 21:51:31.204972 INFO [10192] [imsocklib.cpp:43] ims(43)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [authlib.cpp:68] al(68)>>lgt
+2020-06-19 21:51:31.204972 INFO [10192] [securityguardlib.cpp:44] sgl(44)>>lgt
+2020-06-19 21:51:31.207522 INFO [10192] [update.cpp:36] ul(36)>>lgt
+2020-06-19 21:51:31.207522 INFO [10192] [networklib.cpp:86] cnl(86)>>lgt
+2020-06-19 21:51:31.207522 INFO [10192] [minicc.cpp:40] mci(40)>>lgt
+2020-06-19 21:51:31.208520 INFO [03304] [enetclientsocket.cpp:170] ecs(170), cls
+2020-06-19 21:51:31.208520 WARNING [03304] [commonlibshell.cpp:32] [NET]tcp disconnect.
+2020-06-19 21:51:31.208520 INFO [03304] [enetclientsocket.cpp:170] ecs(170), cls
+2020-06-19 21:51:31.208520 WARNING [03304] [commonlibshell.cpp:32] [NET]tcp disconnect.
+2020-06-19 21:51:31.976384 INFO [11584] [miniccinterface.cpp:583] d_mci(583), close=0
+2020-06-19 21:51:31.976384 INFO [10192] [miniccinterface.cpp:583] d_mci(583), close=0
+2020-06-19 21:51:31.976384 INFO [10192] [messagecenter.cpp:41] d_mc41)>>lgt
+2020-06-19 21:51:31.976384 INFO [10192] [guildlib.cpp:32] cgdl(32)>>lgt
+2020-06-19 21:51:31.976384 INFO [10192] [malllib.cpp:28] cgdl(28)>>lgt
+2020-06-19 21:51:31.982717 INFO [10192] [questlib.cpp:16] logout
+2020-06-19 21:51:31.982717 INFO [10192] [wyapplication.cpp:368] (456,368;169940078,555093), i=8, exit
+2020-06-19 21:51:31.991693 INFO [10192] [wyapplication.cpp:182] (368,182;170495171,16), i=8, exiting
+2020-06-19 21:51:32.211946 INFO [10192] [wyapplication.cpp:187] (182,187;170495187,219), i=8, uniniting
+2020-06-19 21:51:32.212942 INFO [10192] [wyapplication.cpp:190] (187,190;170495406,0), i=8, exit!
+2020-06-19 21:51:32.212942 INFO [10192] [platformmanager.cpp:532] pm(532)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [platformmodule.cpp:80] pmd(80)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [engine.cpp:203] d_eg(203)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [im.cpp:76] d_im(76)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [war3engine.cpp:55] d_we(55)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [war3processmanager.cpp:107] d_wpm(107)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [war3proxy.cpp:612] wpl(612)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [gameroundlib.cpp:75] grl(75)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [gameround.cpp:119] gr(119)>> Clear
+2020-06-19 21:51:32.212942 INFO [10192] [imsocklib.cpp:43] ims(43)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [authlib.cpp:68] al(68)>>lgt
+2020-06-19 21:51:32.212942 INFO [10192] [securityguardlib.cpp:44] sgl(44)>>lgt
+2020-06-19 21:51:32.213940 INFO [10192] [update.cpp:36] ul(36)>>lgt
+2020-06-19 21:51:32.213940 INFO [10192] [networklib.cpp:86] cnl(86)>>lgt
+2020-06-19 21:51:32.213940 INFO [10192] [minicc.cpp:40] mci(40)>>lgt
+2020-06-19 21:51:32.213940 INFO [10192] [miniccinterface.cpp:583] d_mci(583), close=0
+2020-06-19 21:51:32.213940 INFO [10192] [messagecenter.cpp:41] d_mc41)>>lgt
+2020-06-19 21:51:32.213940 INFO [10192] [guildlib.cpp:32] cgdl(32)>>lgt
+2020-06-19 21:51:32.213940 INFO [10192] [malllib.cpp:28] cgdl(28)>>lgt
+2020-06-19 21:51:32.213940 INFO [10192] [questlib.cpp:16] logout
+2020-06-19 21:51:32.346585 INFO [10192] [miniccinterface.cpp:583] d_mci(583), close=0
+2020-06-19 21:51:32.346585 INFO [10192] [miniccinterface.cpp:583] d_mci(583), close=0
+2020-06-19 21:51:32.347582 INFO [10192] [gameround.cpp:119] gr(119)>> Clear
+2020-06-19 21:51:32.347582 INFO [10192] [securityguardlib.cpp:44] sgl(44)>>lgt
+2020-06-19 21:51:32.347582 ERROR [10192] [serversocket.cpp:137] tss(137), -1 ok=1444
+2020-06-19 21:51:32.347582 ERROR [10192] [serversocket.cpp:137] tss(137), -1 ok=6
+2020-06-19 21:51:32.349577 INFO [10192] [network.cpp:52] cnt(52)>>lgt
+2020-06-19 21:51:32.349577 INFO [10192] [netconnection.cpp:1523] d_nct(1523)>>lgt
+2020-06-19 21:51:32.349577 INFO [10192] [networktracer.cpp:65] d_nt(65)>>lgt

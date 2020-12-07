@@ -1,0 +1,10 @@
+Log file created at: 2020/06/19 21:38:36
+Running on machine: DESKTOP-XLWMFH
+Log line format: YY-mm-dd hh:mm:ss.uuuuuu [threadid] [file:line] msg
+2020-06-19 21:38:36.000427 NET [03304] [netconnection.cpp:134] cnscs(134), conn
+2020-06-19 21:38:49.939071 NET [03304] [netconnection.cpp:134] cnscs(134), conn
+2020-06-19 21:41:50.816242 NET [03304] [netconnection.cpp:235] cncs(235), conn
+2020-06-19 21:42:14.679752 NET [03304] [netconnection.cpp:134] cnscs(134), conn
+2020-06-19 21:42:14.827872 NET [03304] [netconnection.cpp:235] cncs(235), conn
+2020-06-19 21:42:16.616060 NET [03304] [netconnection.cpp:444] ctcs(444), conn
+2020-06-19 21:42:44.056895 NET [03304] [netconnection.cpp:697] cgcs(697), conn
